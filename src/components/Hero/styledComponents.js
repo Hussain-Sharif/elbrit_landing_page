@@ -35,14 +35,14 @@ export const SpecialBg=styled.div`
     position:relative;
     // width:100px;
     z-index:0;
-    width:240px;
+    width:210px;
     min-height:200px;
     height:230px;
     max-height:380px;
     @media screen and (min-width:768px){
         height:350px;
         width:auto;
-        top:-40px;
+        top:-20px;
         border-top-left-radius:180px;
     border-bottom-right-radius:180px;
     }
