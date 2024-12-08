@@ -3,6 +3,7 @@ import Headers from '../src/components/Header/index.jsx'
 import { Hero } from './components/Hero/index.jsx'
 import { Ingrediants } from './components/Ingrediants/index.jsx'
 import { OurBlog } from './components/OurBlog/index.jsx'
+import { Footer } from './components/Footer/index.jsx'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <Ingrediants/>
       <OurBlog/>
+      <Footer/>
     </>
   )
 }
