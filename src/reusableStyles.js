@@ -4,6 +4,11 @@ export const ReUseDiv = styled.div`
   height: ${props => props.h};
   width: ${props => props.w};
 
+  min-height:${props=>props.minH};
+  max-height:${props=>props.maxH};
+  min-width:${props=>props.minW};
+  max-width:${props=>props.maxW};
+
   padding: ${props => props.p};
   padding-left: ${props => props.pl};
   padding-top: ${props => props.pt};
@@ -17,7 +22,8 @@ export const ReUseDiv = styled.div`
   margin-right: ${props => props.mr};
 
   background-color: ${props => props.bg};
-
+  background-image:url(${props=>props.bgImgUrl});
+  background-size:${props=>props.bgSize};
   order:${props=>props.order};
   display: ${props => props.display};
   flex-direction: ${props => props.fD};
@@ -25,7 +31,7 @@ export const ReUseDiv = styled.div`
   align-items: ${props => props.aI};
   flex-wrap: ${props => props.fW};
   align-self:${props=>props.aS};
-  @media screen and (min-width:769px){ // Bigger Screens
+  @media screen and (min-width:767px){ // Bigger Screens
     order:${props=>props.orderB};
     display: ${props => props.displayB};
     flex-direction: ${props => props.fDB};
@@ -153,6 +159,7 @@ export const ReUseButton = styled.button`
   font-family: ${props => props.ff};
   text-align: ${props => props.tAlign};
   text-transform: ${props => props.tTransform};
+  text-decoration:${props=>props.tD};
   @media screen and (min-width:769px){
     font-size: ${props => props.fsB};
   }

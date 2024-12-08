@@ -9,7 +9,7 @@ import noriskIcon from '../../assets/no_risk.png'
 
 
 export const Hero=()=>(
-    <ReUseDiv display="flex" fD="column" jC="center" aI="center" p="10px">
+    <ReUseDiv display="flex" fD="column" jC="center" aI="center" p="20px">
     {/* <> */}
     <HeroBg>
         <MainHeading>Essential Vitamins</MainHeading>
@@ -53,7 +53,7 @@ export const Hero=()=>(
             </ReUseDiv>
         </ReUseDiv>  
     </HeroBg>
-    <ReUseDiv aS="center" top="-50px" fW="wrap" display="flex" fD="column" jC="center" aI="center" fDB="row"  p="15px" border="none" position="relative" br="25px" w="80%" bg="#17414F" >
+    <ReUseDiv aS="center" top="-50px" fW="wrap" display="flex" fD="column" jC="center" aI="center" fDB="row"  p="15px" border="none" position="relative" br="25px" w="85%" bg="#17414F" >
         <ReUseDiv border="none" m="10px"  position="relative" w="100%" wB="30%" left="0px" topB="-60px" display="flex" fD="row" fDB="column" jC="flex-start" aI="center">
                 <ReUseDiv>
                     <ReUseImage w="60px" h="60px" mdW="90px" mdH="90px" alt="clinical" src={clinicalIcon}/>

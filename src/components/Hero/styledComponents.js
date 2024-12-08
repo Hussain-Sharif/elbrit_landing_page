@@ -4,7 +4,7 @@ export const HeroBg=styled.div`
     background-color:#E2F5FB;
     height:auto ;
     padding:5px;
-    margin:15px;
+    margin:0px;
     width:100%;
     display:flex;
     flex-direction:column;
