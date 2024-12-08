@@ -34,7 +34,22 @@ export const ReUseDiv = styled.div`
     flex-wrap: ${props => props.fWB};
     align-self:${props=>props.aSB};
     height: ${props => props.hB};
-  width: ${props => props.wB};
+    width: ${props => props.wB};
+    top: ${props => props.topB};
+    right: ${props => props.rightB};
+    bottom: ${props => props.bottomB};
+    left: ${props => props.leftB};
+    padding: ${props => props.pB};
+    padding-left: ${props => props.plB};
+    padding-top: ${props => props.ptB};
+    padding-bottom: ${props => props.pbB};
+    padding-right: ${props => props.prB};
+
+    margin: ${props => props.mB};
+    margin-left: ${props => props.mlB};
+    margin-top: ${props => props.mtB};
+    margin-bottom: ${props => props.mbB};
+    margin-right: ${props => props.mrB};
   }
 
   border: ${props => props.border};
@@ -79,8 +94,9 @@ export const ReUseText = styled.span`
   white-space: ${props => props.wSpace};
   overflow-wrap: ${props => props.oWrap};
 
-  @media screen and (min-width:769){
+  @media screen and (min-width:769px){
     font-size: ${props => props.fsB};
+    text-align: ${props => props.tAlignB};
   }
 
   /* Background and Borders */

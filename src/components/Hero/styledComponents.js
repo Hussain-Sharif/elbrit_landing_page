@@ -3,13 +3,14 @@ import styled from 'styled-components'
 export const HeroBg=styled.div`
     background-color:#E2F5FB;
     height:auto ;
-    padding:10px;
+    padding:5px;
     margin:15px;
+    width:100%;
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
     align-items:center;
-    padding-bottom:50px;
+    padding-bottom:70px;
 `
 export const MainHeading=styled.h1`
     color:#003569;
