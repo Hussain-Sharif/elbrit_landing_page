@@ -1,8 +1,9 @@
 import styled from 'styled-components'
+import { ReUseDiv } from '../../reusableStyles'
 
 export const HeroBg=styled.div`
     background-color:#E2F5FB;
-    height:auto ;
+    height:auto;
     padding:5px;
     margin:0px;
     width:100%;
@@ -10,7 +11,7 @@ export const HeroBg=styled.div`
     flex-direction:column;
     justify-content:flex-start;
     align-items:center;
-    padding-bottom:70px;
+    padding-bottom:80px;
 `
 export const MainHeading=styled.h1`
     color:#003569;
@@ -19,10 +20,10 @@ export const MainHeading=styled.h1`
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size:40px; // 1st Mobile 
     @media screen and (min-width:481px){
-        font-size:50px; // Tablet
+        font-size:65px; // Tablet
     }
     @media screen and (min-width:769px){
-        font-size:65px; // Small laptops
+        font-size:70px; // Small laptops
     }
     @media screen and (min-width:1024px){
         font-size:110px; // bigger Screens
@@ -42,10 +43,28 @@ export const SpecialBg=styled.div`
     max-height:380px;
     @media screen and (min-width:768px){
         height:350px;
-        width:auto;
+        width:90%;
         top:-20px;
         border-top-left-radius:180px;
     border-bottom-right-radius:180px;
     }
 `
 
+export const HeroCoverBg=styled(ReUseDiv)`
+    @media screen and (min-width:1024px){
+        flex-direction:row;
+        .imageDiv{
+            order:1;
+        }
+        .textDiv{
+            order:0;
+        }
+        .pointsDiv{
+            order:2;
+            flex-direction:column;
+            div{
+                margin-left:15px;
+            }
+        }
+    }
+`

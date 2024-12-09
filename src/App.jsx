@@ -8,13 +8,13 @@ import { Footer } from './components/Footer/index.jsx'
 function App() {
 
   return (
-    <>
+    <div className='Main-Div'>
       <Headers/>
       <Hero/>
       <Ingrediants/>
       <OurBlog/>
       <Footer/>
-    </>
+    </div>
   )
 }
 
