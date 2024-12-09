@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { ReUseDiv } from '../../reusableStyles'
+import styled,{keyframes} from 'styled-components'
+import { ReUseDiv, ReUseImage } from '../../reusableStyles'
 
 export const HeroBg=styled.div`
     background-color:#E2F5FB;
@@ -68,3 +68,18 @@ export const HeroCoverBg=styled(ReUseDiv)`
         }
     }
 `
+const animate = keyframes`
+  from {
+    top:-60px;
+  }
+  to {
+    top:-75px;
+  }
+`;
+
+export const HeroImage=styled(ReUseImage)`
+    position:relative;
+    border:red 1px red;
+    animation: ${animate} 1.5s alternate infinite; 
+`
+

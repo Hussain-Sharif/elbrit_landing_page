@@ -1,5 +1,5 @@
 import { ReUseButton,ReUseDiv,ReUseImage,ReUseText } from "../../reusableStyles"
-import { HeroBg, HeroCoverBg, MainHeading ,SpecialBg} from "./styledComponents"
+import { HeroBg, HeroCoverBg, HeroImage, MainHeading ,SpecialBg} from "./styledComponents"
 import clinicalIcon from '../../assets/clinical.png'
 import vegIcon from '../../assets/veg.png'
 import madeIcon from '../../assets/made.png'
@@ -16,7 +16,7 @@ export const Hero=()=>(
         <HeroCoverBg border="none" mt="40px" w="100%" display="flex" fD="column" jC="space-between" aI="center">
             <ReUseDiv className="imageDiv" order="0"  border="none" position="relative" w="auto" mb="10px" display="flex" fD="column"   jC="center" aI="flex-start" aS="center" >
                 <SpecialBg>
-                    <ReUseImage zIndex="2" position="relative" top="-80px" left="-50px" w="300px" mdW="480px" alt="probiotics" src="https://s3-alpha-sig.figma.com/img/6dd8/7f0a/f73aa0189cad884f47381dd92205b7c0?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V21VVDmU7JxcRB76OOhoAt9ZJzhck8hR9U3L1UvokjwzK916BF2uOVElrkcxN5YP-si~qFGW9mXybipDrvdR9inQNdWLrDUUFadDcDwhwDJ4adJ0UfkwYRnZT-0b2Y9w29vguT4lAW1HMCi344hAaPojIhdUTUnuzzFnqR8X2VtFZXtBgZJYDWU5w5bRDHt1Nlxenbc59CkLE-RpPwl-8Wt6uz8rwl5~X6nDY-R0fyUzHYIp51B4LQF2W32WHBANFHGkAREYP66qtVWdYPpqIVAoba2zRrWozjVW~~unoMkhN0MSl-kap8oS2~IXt2HMzEYndt7tu2DsSbjQue1p9g__"/>
+                    <HeroImage zIndex="2" position="relative" top="-80px" left="-50px" w="300px" mdW="480px" alt="probiotics" src="https://s3-alpha-sig.figma.com/img/6dd8/7f0a/f73aa0189cad884f47381dd92205b7c0?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V21VVDmU7JxcRB76OOhoAt9ZJzhck8hR9U3L1UvokjwzK916BF2uOVElrkcxN5YP-si~qFGW9mXybipDrvdR9inQNdWLrDUUFadDcDwhwDJ4adJ0UfkwYRnZT-0b2Y9w29vguT4lAW1HMCi344hAaPojIhdUTUnuzzFnqR8X2VtFZXtBgZJYDWU5w5bRDHt1Nlxenbc59CkLE-RpPwl-8Wt6uz8rwl5~X6nDY-R0fyUzHYIp51B4LQF2W32WHBANFHGkAREYP66qtVWdYPpqIVAoba2zRrWozjVW~~unoMkhN0MSl-kap8oS2~IXt2HMzEYndt7tu2DsSbjQue1p9g__"/>
                 </SpecialBg>
             </ReUseDiv>
             
