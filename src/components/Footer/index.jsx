@@ -35,7 +35,7 @@ export const Footer=()=>(
 
             <ReUseDiv  order="0" orderB="1" w="100%" display="flex" fD="column" fDB="row" jC="center" jCB="flex-start" aI="flex-start" mb="50px">
                 <ReUseDiv bg="#fff" p="5px" maxW="340px" mb="20px">
-                    <ReUseImage alt="logo" src="https://s3-alpha-sig.figma.com/img/8be1/c27b/24873ffb8a3345a8dedea9b0d8f9e7ba?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L0spKcLnDj3-RGpQBgOl4A15XyrTvF-baao9zqhB1Sbc4h8fV0bqAxcS7zgqS2FsjV7o9OxvALHkXRRbgFT3Xp~6PeUjIn~ISRuX16EbEaLdhXEEpKqHxhzNSpqyeJcazv-C-0Fk4L2YhBx966luC0vI7UTh0tfPGFeD0sMakYF2KogtEA3m~mfkw7wOehPZa3kvbcF7t0T~HrGgOXynC6TglKELsRGlVz95fjwecpdCjr99eGIDVFD61c8UYKTCPShu1wAmLXrhq0ps1APbdyq0Vm16-DHw5sjSFHRHiAsWAAmMCJRJFA5-H9-AXr9MVi1H-zb2wDFoRz3KoK0wsQ__"/>
+                    <ReUseImage alt="logo" src="src/assets/full-logo.png"/>
                 </ReUseDiv>
                 <ReUseDiv  mlB="80px" maxW="380px" w="100%">
                     <ReUseText color="#fff">Your health, physical and emotional well-being is important to us. We are always by your side and have made it even easier for you to find the necessary vitamins.</ReUseText>
